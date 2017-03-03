@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -std=c++11 -g  -Wl,--enable-auto-import CMakeFiles/Bingo.dir/main.cpp.o CMakeFiles/Bingo.dir/UserInterface.cpp.o CMakeFiles/Bingo.dir/Deck.cpp.o CMakeFiles/Bingo.dir/Card.cpp.o CMakeFiles/Bingo.dir/MenuOption.cpp.o CMakeFiles/Bingo.dir/Menu.cpp.o  -o ../Bingo.exe -Wl,--out-implib,libBingo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
