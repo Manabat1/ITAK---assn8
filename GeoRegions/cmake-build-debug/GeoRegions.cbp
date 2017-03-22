@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GeoRegions"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeoRegions">
+				<Option output="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/GeoRegions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeoRegions"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeoRegions/fast">
+				<Option output="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/GeoRegions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeoRegions/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/City.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/City.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/County.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/County.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/CountyUserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/CountyUserInterface.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Menu.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Menu.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/MenuOption.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/MenuOption.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Nation.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Nation.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/NationUserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/NationUserInterface.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Region.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Region.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/State.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/State.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/StateUserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/StateUserInterface.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Testing/RegionTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Testing/RegionTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Testing/UtilsTester.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Testing/UtilsTester.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Testing/testMain.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/UserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/UserInterface.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Utils.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/Utils.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/World.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/World.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/WorldUserInterface.cpp">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/WorldUserInterface.h">
+			<Option target="Test"/>
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/main.cpp">
+			<Option target="GeoRegions"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

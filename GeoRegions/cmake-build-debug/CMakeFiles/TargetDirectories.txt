@@ -1,0 +1,4 @@
+/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/CMakeFiles/Test.dir
+/cygdrive/c/Users/manab/Desktop/Repositories/1440myRespositories/GeoRegions/cmake-build-debug/CMakeFiles/GeoRegions.dir
