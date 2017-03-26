@@ -93,7 +93,10 @@ void UserInterface::add()
         if (data != "") {
             Region *region = Region::create(m_subRegionType, data);
             if (region != nullptr) {
-                // TODO: Add region to the m_currentRegion
+                m_currentRegion->addRegion(Region::create(m_subRegionType, data));
+                if(m_currentRegion->getSubRegions().size() == 0){
+                    std::cout << "Still nothing in here\n";
+                }
                 std::cout << Region::regionLabel(m_subRegionType) << " added" << std::endl;
             } else {
                 std::cout << "Invalid data - no region created" << std::endl;
@@ -122,7 +125,13 @@ void UserInterface::edit()
         if (valid && id>0)
         {
             Region* region;
-            // TODO: Look the region by Id and assign it to region variable
+            for (Region *r: m_currentRegion->getSubRegions()) {
+                if (r->getId() == id) {
+                   region = r;
+                    break;
+                }
+            }
+
             if (region!=nullptr)
             {
                 std::cout << "Editing: ";
@@ -216,8 +225,20 @@ void UserInterface::remove()
         unsigned int id = convertStringToUnsignedInt(input, &valid);
         if (valid && id>0)
         {
-            // TODO: Look up the region by Id and assign it to the region variable
-            std::cout << "Deleted!" << std::endl;
+            for (unsigned int nationIndex=0; nationIndex < m_currentRegion->getSubRegionCount(); nationIndex++)
+            {
+                Region *r =  m_currentRegion->getSubRegionByIndex(nationIndex);
+                if (r->getId() == id) {
+                    m_currentRegion->removeRegionByIndex(nationIndex);
+
+                    delete r;
+
+                    std::cout << "Deleted!" << std::endl;
+
+                    break;
+                }
+            }
+
         }
         else
         {
@@ -245,7 +266,12 @@ void UserInterface::changeToSubRegion()
         if (valid && id>0)
         {
             Region* region;
-            // TODO: Lookup the region by Id and assign it to the region variable.
+            for (Region *r: m_currentRegion->getSubRegions()) {
+                if (r->getId() == id) {
+                    region = r;
+                    break;
+                }
+            }
             if (region!=nullptr)
             {
                 UserInterface* nextUI = nullptr;

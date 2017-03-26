@@ -21,6 +21,7 @@ int main() {
 
     RegionTester regionTester;
     regionTester.testCreateFromStream();
+   // std::cout << "Line 24 test" << std::endl;
     regionTester.testCreateFromString();
     regionTester.testCreateFromTypeAndString();
     regionTester.testGettersAndSetters();

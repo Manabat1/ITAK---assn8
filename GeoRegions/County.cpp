@@ -4,5 +4,8 @@
 
 #include "County.h"
 
-
 // TODO: Implement functionality of County class
+County::County(const std::string data[]) : Region(CountyType, data)
+{
+    validate();
+}

@@ -6,6 +6,7 @@
 #define GEO_REGIONS_REGION_H
 
 #include <string>
+#include <vector>
 
 class Region {
 public:
@@ -18,8 +19,7 @@ protected:
     unsigned int    m_population = 0;
     double          m_area = 0;
     bool            m_isValid = false;
-
-    // TODO: Add data members to manage sub-regions
+    std::vector<Region*> sub_regions;
 
 private:
     static unsigned int m_nextId;
@@ -48,7 +48,11 @@ public:
     bool getIsValid() const { return m_isValid; }
 
     // TODO: Add methods to manage sub-regions
-
+    void addRegion(Region* region);
+    void removeRegionByIndex(int index);
+    std::vector<Region*> getSubRegions() const;
+    Region* getSubRegionByIndex(int index) const ;
+    int getSubRegionCount() const;
     // TODO: Add method to compute total population, as m_population + the total population for all sub-regions
     unsigned int computeTotalPopulation();
 

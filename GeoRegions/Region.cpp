@@ -11,6 +11,7 @@
 #include "City.h"
 
 #include <iomanip>
+#include <iostream>
 
 const std::string regionDelimiter = "^^^";
 const int TAB_SIZE = 4;
@@ -67,15 +68,14 @@ Region* Region::create(RegionType regionType, const std::string& data)
                 region = new Nation(fields);
                 break;
             case StateType:
-                region = new Nation(fields);
+                region = new State(fields);
                 break;
             case CountyType:
-                region = new Nation(fields);
+                region = new County(fields);
                 break;
             case CityType:
-                region = new Nation(fields);
+                region = new City(fields);
                 break;
-       // TODO: Add cases for State, County, and City
             default:
                 break;
         }
@@ -129,7 +129,9 @@ Region::Region(RegionType type, const std::string data[]) :
 
 Region::~Region()
 {
-    // TODO: cleanup any dynamically allocated objects
+    for(Region* r: sub_regions){
+        delete r;
+    }
 }
 
 std::string Region::getRegionLabel() const
@@ -139,17 +141,22 @@ std::string Region::getRegionLabel() const
 
 unsigned int Region::computeTotalPopulation()
 {
-    // TODO: implement computeTotalPopulation, such that the result is m_population + the total population for all sub-regions
+    unsigned int totalPop = getPopulation();
+
+    for(Region* r: sub_regions){
+        totalPop += r->computeTotalPopulation();
+    }
+    return totalPop;
 }
 
 void Region::list(std::ostream& out)
 {
     out << std::endl;
     out << getName() << ":" << std::endl;
-
-    // TODO: implement the loop in the list method
-    // foreach subregion, print out
-    //      id    name
+    //out << "Subregion Count: " << sub_regions.size() << std::endl;
+    for(Region* r: sub_regions){
+        out << r->getId() << ") " << r->getName() << ":" << std::endl;
+    }
 }
 
 void Region::display(std::ostream& out, unsigned int displayLevel, bool showChild)
@@ -161,9 +168,8 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
 
     unsigned totalPopulation = computeTotalPopulation();
     double area = getArea();
-    double density = (double) totalPopulation / area;
+    double density = ( totalPopulation) / area;
 
-    // TODO: compute the totalPopulation using a method
 
     out << std::setw(6) << getId() << "  "
         << getName() << ", population="
@@ -171,11 +177,18 @@ void Region::display(std::ostream& out, unsigned int displayLevel, bool showChil
         << ", area=" << area
         << ", density=" << density << std::endl;
 
-    if (showChild)
-    {
-        // TODO: implement loop in display method
-        // foreach subregion
-        //      display that subregion at displayLevel+1 with the same showChild value
+    if (showChild) {
+
+        for (Region *r: sub_regions) {
+            if (showChild) {
+                double totalpop = r->computeTotalPopulation();
+            out << std::setw(6) << r->getId() << "  "
+                << r->getName() << ", population="
+                << totalpop
+                << ", area=" << r->getArea()
+                << ", density=" << ((totalpop)/r->getArea()) << std::endl;
+            }
+         }
     }
 }
 
@@ -187,10 +200,10 @@ void Region::save(std::ostream& out)
         << "," << getArea()
         << std::endl;
 
-    // TODO: implement loop in save method to save each sub-region
-    // foreach subregion,
-    //      save that region
 
+    for(Region* r: sub_regions){
+        r->save(out);
+    }
     out << regionDelimiter << std::endl;
 }
 
@@ -216,7 +229,7 @@ void Region::loadChildren(std::istream& in)
             Region* child = create(line);
             if (child!= nullptr)
             {
-                // TODO: Add the new sub-region to this region
+                sub_regions.push_back(child);
                 child->loadChildren(in);
             }
         }
@@ -229,4 +242,28 @@ unsigned int Region::getNextId()
         m_nextId=1;
 
     return m_nextId++;
+}
+
+std::vector<Region *> Region::getSubRegions() const {
+    return sub_regions;
+}
+
+void Region::addRegion(Region *region) {
+    sub_regions.push_back(region);
+}
+
+int Region::getSubRegionCount()  const{
+    return sub_regions.size();
+}
+
+Region* Region::getSubRegionByIndex(int index) const {
+
+    if(index >= sub_regions.size()){
+        std::cout << "Invalid id" << std::endl;
+    }
+    return sub_regions[index];
+
+}
+void Region::removeRegionByIndex(int index){
+    sub_regions.erase(sub_regions.begin() + index);
 }

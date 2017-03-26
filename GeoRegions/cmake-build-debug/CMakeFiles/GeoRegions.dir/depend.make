@@ -3,9 +3,11 @@
 
 CMakeFiles/GeoRegions.dir/City.cpp.o: ../City.cpp
 CMakeFiles/GeoRegions.dir/City.cpp.o: ../City.h
+CMakeFiles/GeoRegions.dir/City.cpp.o: ../Region.h
 
 CMakeFiles/GeoRegions.dir/County.cpp.o: ../County.cpp
 CMakeFiles/GeoRegions.dir/County.cpp.o: ../County.h
+CMakeFiles/GeoRegions.dir/County.cpp.o: ../Region.h
 
 CMakeFiles/GeoRegions.dir/CountyUserInterface.cpp.o: ../CountyUserInterface.cpp
 CMakeFiles/GeoRegions.dir/CountyUserInterface.cpp.o: ../CountyUserInterface.h
@@ -41,6 +43,7 @@ CMakeFiles/GeoRegions.dir/Region.cpp.o: ../State.h
 CMakeFiles/GeoRegions.dir/Region.cpp.o: ../Utils.h
 CMakeFiles/GeoRegions.dir/Region.cpp.o: ../World.h
 
+CMakeFiles/GeoRegions.dir/State.cpp.o: ../Region.h
 CMakeFiles/GeoRegions.dir/State.cpp.o: ../State.cpp
 CMakeFiles/GeoRegions.dir/State.cpp.o: ../State.h
 

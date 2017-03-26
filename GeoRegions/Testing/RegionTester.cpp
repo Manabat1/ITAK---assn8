@@ -59,14 +59,24 @@ void RegionTester::testCreateFromStream()
 
         for (unsigned int nationIndex=0; nationIndex < world->getSubRegionCount(); nationIndex++)
         {
+
             Region* nation = world->getSubRegionByIndex(nationIndex);
-            if (nation->getType()!=Region::RegionType::NationType)
-            {
-                std::cout << "Failed to create correct type of sub-region in the world from " << inputFile << std::endl;
-                std::cout << "\tExpected nation sub-region type, but created a " << nation->getRegionLabel() << std::endl;
-                return;
+            //nation->list(std::cout);
+            if(world == nation){
+                std::cout << "Uhoh" << std::endl;
+            }
+            if(nation!=nullptr) {
+                if (nation->getType() != Region::RegionType::NationType) {
+                    std::cout << "Failed to create correct type of sub-region in the world from " << inputFile
+                              << std::endl;
+                    std::cout << "\tExpected nation sub-region type, but created a " << nation->getRegionLabel()
+                              << std::endl;
+                    return;
+                }
             }
         }
+
+
     }
 
 }
@@ -446,12 +456,31 @@ void RegionTester::testSubRegions()
 {
     std::cout << "RegionTester::testSubRegions" << std::endl;
 
-    // TODO: Add test cases for managing sub-regions
+    std::string inputFile = "SampleData/sampleData-2.txt";
+    std::ifstream inputStream(inputFile);
+    Region* world = Region::create(inputStream);
+    for(Region* r : world->getSubRegions()){
+        if(r->getType() != Region::NationType){
+            std::cout << "Region is invlaid Type" << std::endl;
+        }
+        if(r == world){
+            std::cout << "Region is a subregion of itself" << std::endl;
+        }
+    }
 }
 
 void RegionTester::testComputeTotalPopulation()
 {
     std::cout << "RegionTester::testComputeTotalPopulation" << std::endl;
 
-    // TODO: Add test cases for computeTotalPopulation
+    std::string inputFile = "SampleData/sampleData-4.txt";
+    std::ifstream inputStream(inputFile);
+    Region* world = Region::create(inputStream);
+    Region* r = world->getSubRegionByIndex(0);
+    if(r->computeTotalPopulation()  != 532195) {
+        std::cout << " Population of region without subregions: " << r->getPopulation() << std::endl;
+        std::cout << "Total Population: " << r->computeTotalPopulation() << std::endl;
+        std::cout << "expected for US: 532195 " << std::endl;
+
+    }
 }
