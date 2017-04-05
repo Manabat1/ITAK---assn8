@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Dictionary.hpp
+vector
+-
+string
+-
+iostream
+-
+KeyValue.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/KeyValue.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/KeyValue.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/main.cpp
+iostream
+-
+string
+-
+Dictionary.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Dictionary.hpp
+

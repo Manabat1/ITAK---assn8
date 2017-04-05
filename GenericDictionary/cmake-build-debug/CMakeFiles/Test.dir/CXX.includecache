@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Dictionary.hpp
+vector
+-
+string
+-
+iostream
+-
+KeyValue.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/KeyValue.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/KeyValue.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/DictionaryTester.cpp
+iostream
+-
+DictionaryTester.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/DictionaryTester.hpp
+../Dictionary.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Dictionary.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/DictionaryTester.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/KeyValueTester.cpp
+iostream
+-
+KeyValueTester.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/KeyValueTester.hpp
+../KeyValue.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/KeyValue.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/KeyValueTester.hpp
+
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/testMain.cpp
+DictionaryTester.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/DictionaryTester.hpp
+KeyValueTester.hpp
+/cygdrive/c/Users/manab/CLionProjects/GenericDictionary/Testing/KeyValueTester.hpp
+
