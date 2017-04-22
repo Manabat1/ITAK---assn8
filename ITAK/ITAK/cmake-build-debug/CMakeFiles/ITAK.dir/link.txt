@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/ITAK.dir/main.cpp.o CMakeFiles/ITAK.dir/ResultSet.cpp.o CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o CMakeFiles/ITAK.dir/Configuration.cpp.o CMakeFiles/ITAK.dir/Utils.cpp.o  -o ../ITAK.exe -Wl,--out-implib,libITAK.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
