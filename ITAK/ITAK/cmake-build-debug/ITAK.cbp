@@ -150,6 +150,22 @@
 			<Option target="TEST"/>
 			<Option target="ITAK"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.h">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.h">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/PortScanAnalyzer.cpp">
 			<Option target="TEST"/>
 			<Option target="ITAK"/>
@@ -163,6 +179,14 @@
 			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/ResultSet.hpp">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.hpp">
 			<Option target="TEST"/>
 			<Option target="ITAK"/>
 		</Unit>
@@ -192,6 +216,14 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/Testing/testMain.cpp">
 			<Option target="TEST"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.h">
+			<Option target="TEST"/>
+			<Option target="ITAK"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/manab/CLionProjects/ITAK/Utils.cpp">
 			<Option target="TEST"/>

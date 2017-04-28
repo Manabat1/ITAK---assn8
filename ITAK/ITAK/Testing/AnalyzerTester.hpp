@@ -8,7 +8,6 @@
 
 class AnalyzerTester {
 public:
-    void testDefaultRun();
     void testConstructor();
 };
 

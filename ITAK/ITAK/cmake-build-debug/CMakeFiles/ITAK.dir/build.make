@@ -201,6 +201,102 @@ CMakeFiles/ITAK.dir/Utils.cpp.o.provides: CMakeFiles/ITAK.dir/Utils.cpp.o.requir
 CMakeFiles/ITAK.dir/Utils.cpp.o.provides.build: CMakeFiles/ITAK.dir/Utils.cpp.o
 
 
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp
+
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp > CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.i
+
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp -o CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.s
+
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.requires
+
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.provides: CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.provides.build
+.PHONY : CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.provides
+
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.provides.build: CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o
+
+
+CMakeFiles/ITAK.dir/Menu.cpp.o: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/Menu.cpp.o: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ITAK.dir/Menu.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/Menu.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp
+
+CMakeFiles/ITAK.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/Menu.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp > CMakeFiles/ITAK.dir/Menu.cpp.i
+
+CMakeFiles/ITAK.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/Menu.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp -o CMakeFiles/ITAK.dir/Menu.cpp.s
+
+CMakeFiles/ITAK.dir/Menu.cpp.o.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/Menu.cpp.o.requires
+
+CMakeFiles/ITAK.dir/Menu.cpp.o.provides: CMakeFiles/ITAK.dir/Menu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Menu.cpp.o.provides.build
+.PHONY : CMakeFiles/ITAK.dir/Menu.cpp.o.provides
+
+CMakeFiles/ITAK.dir/Menu.cpp.o.provides.build: CMakeFiles/ITAK.dir/Menu.cpp.o
+
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.o: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/MenuOption.cpp.o: ../MenuOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ITAK.dir/MenuOption.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/MenuOption.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/MenuOption.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp > CMakeFiles/ITAK.dir/MenuOption.cpp.i
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/MenuOption.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp -o CMakeFiles/ITAK.dir/MenuOption.cpp.s
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.o.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/MenuOption.cpp.o.requires
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.o.provides: CMakeFiles/ITAK.dir/MenuOption.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/MenuOption.cpp.o.provides.build
+.PHONY : CMakeFiles/ITAK.dir/MenuOption.cpp.o.provides
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.o.provides.build: CMakeFiles/ITAK.dir/MenuOption.cpp.o
+
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: CMakeFiles/ITAK.dir/flags.make
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../UserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ITAK.dir/UserInterface.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITAK.dir/UserInterface.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITAK.dir/UserInterface.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp > CMakeFiles/ITAK.dir/UserInterface.cpp.i
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITAK.dir/UserInterface.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp -o CMakeFiles/ITAK.dir/UserInterface.cpp.s
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.o.requires:
+
+.PHONY : CMakeFiles/ITAK.dir/UserInterface.cpp.o.requires
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.o.provides: CMakeFiles/ITAK.dir/UserInterface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.o.provides.build
+.PHONY : CMakeFiles/ITAK.dir/UserInterface.cpp.o.provides
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.o.provides.build: CMakeFiles/ITAK.dir/UserInterface.cpp.o
+
+
 # Object files for target ITAK
 ITAK_OBJECTS = \
 "CMakeFiles/ITAK.dir/main.cpp.o" \
@@ -208,7 +304,11 @@ ITAK_OBJECTS = \
 "CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o" \
 "CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o" \
 "CMakeFiles/ITAK.dir/Configuration.cpp.o" \
-"CMakeFiles/ITAK.dir/Utils.cpp.o"
+"CMakeFiles/ITAK.dir/Utils.cpp.o" \
+"CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o" \
+"CMakeFiles/ITAK.dir/Menu.cpp.o" \
+"CMakeFiles/ITAK.dir/MenuOption.cpp.o" \
+"CMakeFiles/ITAK.dir/UserInterface.cpp.o"
 
 # External object files for target ITAK
 ITAK_EXTERNAL_OBJECTS =
@@ -219,9 +319,13 @@ ITAK_EXTERNAL_OBJECTS =
 ../ITAK.exe: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o
 ../ITAK.exe: CMakeFiles/ITAK.dir/Configuration.cpp.o
 ../ITAK.exe: CMakeFiles/ITAK.dir/Utils.cpp.o
+../ITAK.exe: CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o
+../ITAK.exe: CMakeFiles/ITAK.dir/Menu.cpp.o
+../ITAK.exe: CMakeFiles/ITAK.dir/MenuOption.cpp.o
+../ITAK.exe: CMakeFiles/ITAK.dir/UserInterface.cpp.o
 ../ITAK.exe: CMakeFiles/ITAK.dir/build.make
 ../ITAK.exe: CMakeFiles/ITAK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../ITAK.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../ITAK.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ITAK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +339,10 @@ CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o.require
 CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o.requires
 CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Configuration.cpp.o.requires
 CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Utils.cpp.o.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/Menu.cpp.o.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/MenuOption.cpp.o.requires
+CMakeFiles/ITAK.dir/requires: CMakeFiles/ITAK.dir/UserInterface.cpp.o.requires
 
 .PHONY : CMakeFiles/ITAK.dir/requires
 

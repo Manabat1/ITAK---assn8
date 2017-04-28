@@ -18,7 +18,15 @@ set(SOURCE_FILES
         Utils.cpp
         Utils.hpp
         Dictionary.hpp
-        KeyValue.hpp)
+        KeyValue.hpp
+        SourcePortAnalyzer.cpp
+        SourcePortAnalyzer.hpp
+        Menu.cpp
+        Menu.h
+        MenuOption.cpp
+        MenuOption.h
+        UserInterface.cpp
+        UserInterface.h)
 add_executable(ITAK main.cpp ${SOURCE_FILES})
 
 set(TEST_FILES

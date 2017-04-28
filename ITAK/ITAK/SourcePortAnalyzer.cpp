@@ -1,21 +1,23 @@
 //
-// Created by manab on 4/17/2017.
+// Created by manab on 4/25/2017.
 //
 
-#include "PortScanAnalyzer.hpp"
+#include "SourcePortAnalyzer.hpp"
 
-void PortScanAnalyzer::runMini(std::string* outData) {
+
+void SourcePortAnalyzer::runMini(std::string* outData) {
     try{ // if that value exists
         std::vector<int>* temp = dataHolder->getValue(outData[1]);
-        temp->push_back(std::stoi(outData[3]));
+        temp->push_back(std::stoi(outData[2]));
     } catch(std::string d){ // otherwise
         std::vector<int>* temp = new std::vector<int>;
-        temp->push_back(std::stoi(outData[3]));
+        temp->push_back(std::stoi(outData[2]));
         dataHolder->add(outData[1], temp);
     }
 }
 
-void PortScanAnalyzer::createResultSet(int likelyThreshold, int possibleThreshold) {
+void SourcePortAnalyzer::createResultSet(int likelyThreshold, int possibleThreshold) {
+
     results->add(config->port_count,new std::vector<std::string>);
     results->getValue(config->port_count)->push_back("Likely: " + std::to_string(likelyThreshold));
     results->getValue(config->port_count)->push_back("Possible: " + std::to_string(possibleThreshold));

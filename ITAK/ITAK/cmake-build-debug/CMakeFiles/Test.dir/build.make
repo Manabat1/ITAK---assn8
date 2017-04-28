@@ -201,9 +201,105 @@ CMakeFiles/TEST.dir/Utils.cpp.o.provides: CMakeFiles/TEST.dir/Utils.cpp.o.requir
 CMakeFiles/TEST.dir/Utils.cpp.o.provides.build: CMakeFiles/TEST.dir/Utils.cpp.o
 
 
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: CMakeFiles/TEST.dir/flags.make
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp
+
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp > CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.i
+
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/SourcePortAnalyzer.cpp -o CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.s
+
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.requires:
+
+.PHONY : CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.requires
+
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.provides: CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.provides.build
+.PHONY : CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.provides
+
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.provides.build: CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o
+
+
+CMakeFiles/TEST.dir/Menu.cpp.o: CMakeFiles/TEST.dir/flags.make
+CMakeFiles/TEST.dir/Menu.cpp.o: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TEST.dir/Menu.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/Menu.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp
+
+CMakeFiles/TEST.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST.dir/Menu.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp > CMakeFiles/TEST.dir/Menu.cpp.i
+
+CMakeFiles/TEST.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST.dir/Menu.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/Menu.cpp -o CMakeFiles/TEST.dir/Menu.cpp.s
+
+CMakeFiles/TEST.dir/Menu.cpp.o.requires:
+
+.PHONY : CMakeFiles/TEST.dir/Menu.cpp.o.requires
+
+CMakeFiles/TEST.dir/Menu.cpp.o.provides: CMakeFiles/TEST.dir/Menu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/Menu.cpp.o.provides.build
+.PHONY : CMakeFiles/TEST.dir/Menu.cpp.o.provides
+
+CMakeFiles/TEST.dir/Menu.cpp.o.provides.build: CMakeFiles/TEST.dir/Menu.cpp.o
+
+
+CMakeFiles/TEST.dir/MenuOption.cpp.o: CMakeFiles/TEST.dir/flags.make
+CMakeFiles/TEST.dir/MenuOption.cpp.o: ../MenuOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TEST.dir/MenuOption.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/MenuOption.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp
+
+CMakeFiles/TEST.dir/MenuOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST.dir/MenuOption.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp > CMakeFiles/TEST.dir/MenuOption.cpp.i
+
+CMakeFiles/TEST.dir/MenuOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST.dir/MenuOption.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/MenuOption.cpp -o CMakeFiles/TEST.dir/MenuOption.cpp.s
+
+CMakeFiles/TEST.dir/MenuOption.cpp.o.requires:
+
+.PHONY : CMakeFiles/TEST.dir/MenuOption.cpp.o.requires
+
+CMakeFiles/TEST.dir/MenuOption.cpp.o.provides: CMakeFiles/TEST.dir/MenuOption.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/MenuOption.cpp.o.provides.build
+.PHONY : CMakeFiles/TEST.dir/MenuOption.cpp.o.provides
+
+CMakeFiles/TEST.dir/MenuOption.cpp.o.provides.build: CMakeFiles/TEST.dir/MenuOption.cpp.o
+
+
+CMakeFiles/TEST.dir/UserInterface.cpp.o: CMakeFiles/TEST.dir/flags.make
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../UserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TEST.dir/UserInterface.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/UserInterface.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp
+
+CMakeFiles/TEST.dir/UserInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEST.dir/UserInterface.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp > CMakeFiles/TEST.dir/UserInterface.cpp.i
+
+CMakeFiles/TEST.dir/UserInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEST.dir/UserInterface.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/manab/CLionProjects/ITAK/UserInterface.cpp -o CMakeFiles/TEST.dir/UserInterface.cpp.s
+
+CMakeFiles/TEST.dir/UserInterface.cpp.o.requires:
+
+.PHONY : CMakeFiles/TEST.dir/UserInterface.cpp.o.requires
+
+CMakeFiles/TEST.dir/UserInterface.cpp.o.provides: CMakeFiles/TEST.dir/UserInterface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/UserInterface.cpp.o.provides.build
+.PHONY : CMakeFiles/TEST.dir/UserInterface.cpp.o.provides
+
+CMakeFiles/TEST.dir/UserInterface.cpp.o.provides.build: CMakeFiles/TEST.dir/UserInterface.cpp.o
+
+
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: CMakeFiles/TEST.dir/flags.make
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Testing/AnalyzerTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Testing/AnalyzerTester.cpp
 
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.i: cmake_force
@@ -227,7 +323,7 @@ CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o.provides.build: CMakeFiles/TEST
 
 CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o: CMakeFiles/TEST.dir/flags.make
 CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o: ../Testing/ResultSetTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Testing/ResultSetTester.cpp
 
 CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.i: cmake_force
@@ -251,7 +347,7 @@ CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o.provides.build: CMakeFiles/TES
 
 CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o: CMakeFiles/TEST.dir/flags.make
 CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o: ../Testing/ConfigurationTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Testing/ConfigurationTester.cpp
 
 CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.i: cmake_force
@@ -275,7 +371,7 @@ CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: CMakeFiles/TEST.dir/flags.make
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Testing/AnalyzerSpecializationsTester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o -c /cygdrive/c/Users/manab/CLionProjects/ITAK/Testing/AnalyzerSpecializationsTester.cpp
 
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.i: cmake_force
@@ -305,6 +401,10 @@ TEST_OBJECTS = \
 "CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o" \
 "CMakeFiles/TEST.dir/Configuration.cpp.o" \
 "CMakeFiles/TEST.dir/Utils.cpp.o" \
+"CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o" \
+"CMakeFiles/TEST.dir/Menu.cpp.o" \
+"CMakeFiles/TEST.dir/MenuOption.cpp.o" \
+"CMakeFiles/TEST.dir/UserInterface.cpp.o" \
 "CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o" \
 "CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o" \
 "CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o" \
@@ -319,13 +419,17 @@ TEST_EXTERNAL_OBJECTS =
 ../TEST.exe: CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Configuration.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Utils.cpp.o
+../TEST.exe: CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o
+../TEST.exe: CMakeFiles/TEST.dir/Menu.cpp.o
+../TEST.exe: CMakeFiles/TEST.dir/MenuOption.cpp.o
+../TEST.exe: CMakeFiles/TEST.dir/UserInterface.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o
 ../TEST.exe: CMakeFiles/TEST.dir/build.make
 ../TEST.exe: CMakeFiles/TEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../TEST.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/manab/CLionProjects/ITAK/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ../TEST.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TEST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -339,6 +443,10 @@ CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.o.require
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o.requires
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Configuration.cpp.o.requires
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Utils.cpp.o.requires
+CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o.requires
+CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Menu.cpp.o.requires
+CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/MenuOption.cpp.o.requires
+CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/UserInterface.cpp.o.requires
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o.requires
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Testing/ResultSetTester.cpp.o.requires
 CMakeFiles/TEST.dir/requires: CMakeFiles/TEST.dir/Testing/ConfigurationTester.cpp.o.requires

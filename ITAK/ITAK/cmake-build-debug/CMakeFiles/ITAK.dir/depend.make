@@ -15,6 +15,13 @@ CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o: ../KeyValue.hpp
 CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o: ../ResultSet.hpp
 CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.o: ../Utils.hpp
 
+CMakeFiles/ITAK.dir/Menu.cpp.o: ../Menu.cpp
+CMakeFiles/ITAK.dir/Menu.cpp.o: ../Menu.h
+CMakeFiles/ITAK.dir/Menu.cpp.o: ../MenuOption.h
+
+CMakeFiles/ITAK.dir/MenuOption.cpp.o: ../MenuOption.cpp
+CMakeFiles/ITAK.dir/MenuOption.cpp.o: ../MenuOption.h
+
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../Analyzer.hpp
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../Configuration.hpp
 CMakeFiles/ITAK.dir/PortScanAnalyzer.cpp.o: ../Dictionary.hpp
@@ -29,16 +36,40 @@ CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../KeyValue.hpp
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.cpp
 CMakeFiles/ITAK.dir/ResultSet.cpp.o: ../ResultSet.hpp
 
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../Analyzer.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../Configuration.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../Dictionary.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../KeyValue.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../ResultSet.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.cpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.hpp
+CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o: ../Utils.hpp
+
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Analyzer.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Configuration.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../DenialOfServiceAnalyzer.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Dictionary.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../KeyValue.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Menu.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../MenuOption.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../PortScanAnalyzer.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../ResultSet.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../SourcePortAnalyzer.hpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../UserInterface.cpp
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../UserInterface.h
+CMakeFiles/ITAK.dir/UserInterface.cpp.o: ../Utils.hpp
+
 CMakeFiles/ITAK.dir/Utils.cpp.o: ../Utils.cpp
 CMakeFiles/ITAK.dir/Utils.cpp.o: ../Utils.hpp
 
 CMakeFiles/ITAK.dir/main.cpp.o: ../Analyzer.hpp
 CMakeFiles/ITAK.dir/main.cpp.o: ../Configuration.hpp
-CMakeFiles/ITAK.dir/main.cpp.o: ../DenialOfServiceAnalyzer.hpp
 CMakeFiles/ITAK.dir/main.cpp.o: ../Dictionary.hpp
 CMakeFiles/ITAK.dir/main.cpp.o: ../KeyValue.hpp
-CMakeFiles/ITAK.dir/main.cpp.o: ../PortScanAnalyzer.hpp
+CMakeFiles/ITAK.dir/main.cpp.o: ../Menu.h
+CMakeFiles/ITAK.dir/main.cpp.o: ../MenuOption.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../ResultSet.hpp
+CMakeFiles/ITAK.dir/main.cpp.o: ../UserInterface.h
 CMakeFiles/ITAK.dir/main.cpp.o: ../Utils.hpp
 CMakeFiles/ITAK.dir/main.cpp.o: ../main.cpp
 

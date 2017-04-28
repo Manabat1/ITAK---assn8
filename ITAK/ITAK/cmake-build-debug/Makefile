@@ -196,6 +196,66 @@ DenialOfServiceAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/DenialOfServiceAnalyzer.cpp.s
 .PHONY : DenialOfServiceAnalyzer.cpp.s
 
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/Menu.cpp.o
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/Menu.cpp.i
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/Menu.cpp.s
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+MenuOption.o: MenuOption.cpp.o
+
+.PHONY : MenuOption.o
+
+# target to build an object file
+MenuOption.cpp.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/MenuOption.cpp.o
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/MenuOption.cpp.o
+.PHONY : MenuOption.cpp.o
+
+MenuOption.i: MenuOption.cpp.i
+
+.PHONY : MenuOption.i
+
+# target to preprocess a source file
+MenuOption.cpp.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/MenuOption.cpp.i
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/MenuOption.cpp.i
+.PHONY : MenuOption.cpp.i
+
+MenuOption.s: MenuOption.cpp.s
+
+.PHONY : MenuOption.s
+
+# target to generate assembly for a file
+MenuOption.cpp.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/MenuOption.cpp.s
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/MenuOption.cpp.s
+.PHONY : MenuOption.cpp.s
+
 PortScanAnalyzer.o: PortScanAnalyzer.cpp.o
 
 .PHONY : PortScanAnalyzer.o
@@ -255,6 +315,36 @@ ResultSet.cpp.s:
 	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/ResultSet.cpp.s
 	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/ResultSet.cpp.s
 .PHONY : ResultSet.cpp.s
+
+SourcePortAnalyzer.o: SourcePortAnalyzer.cpp.o
+
+.PHONY : SourcePortAnalyzer.o
+
+# target to build an object file
+SourcePortAnalyzer.cpp.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.o
+.PHONY : SourcePortAnalyzer.cpp.o
+
+SourcePortAnalyzer.i: SourcePortAnalyzer.cpp.i
+
+.PHONY : SourcePortAnalyzer.i
+
+# target to preprocess a source file
+SourcePortAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.i
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.i
+.PHONY : SourcePortAnalyzer.cpp.i
+
+SourcePortAnalyzer.s: SourcePortAnalyzer.cpp.s
+
+.PHONY : SourcePortAnalyzer.s
+
+# target to generate assembly for a file
+SourcePortAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.s
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/SourcePortAnalyzer.cpp.s
+.PHONY : SourcePortAnalyzer.cpp.s
 
 Testing/AnalyzerSpecializationsTester.o: Testing/AnalyzerSpecializationsTester.cpp.o
 
@@ -391,6 +481,36 @@ Testing/testMain.cpp.s:
 	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/Testing/testMain.cpp.s
 .PHONY : Testing/testMain.cpp.s
 
+UserInterface.o: UserInterface.cpp.o
+
+.PHONY : UserInterface.o
+
+# target to build an object file
+UserInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/UserInterface.cpp.o
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.o
+.PHONY : UserInterface.cpp.o
+
+UserInterface.i: UserInterface.cpp.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/UserInterface.cpp.i
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.i
+.PHONY : UserInterface.cpp.i
+
+UserInterface.s: UserInterface.cpp.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/UserInterface.cpp.s
+	$(MAKE) -f CMakeFiles/ITAK.dir/build.make CMakeFiles/ITAK.dir/UserInterface.cpp.s
+.PHONY : UserInterface.cpp.s
+
 Utils.o: Utils.cpp.o
 
 .PHONY : Utils.o
@@ -464,12 +584,21 @@ help:
 	@echo "... DenialOfServiceAnalyzer.o"
 	@echo "... DenialOfServiceAnalyzer.i"
 	@echo "... DenialOfServiceAnalyzer.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
+	@echo "... MenuOption.o"
+	@echo "... MenuOption.i"
+	@echo "... MenuOption.s"
 	@echo "... PortScanAnalyzer.o"
 	@echo "... PortScanAnalyzer.i"
 	@echo "... PortScanAnalyzer.s"
 	@echo "... ResultSet.o"
 	@echo "... ResultSet.i"
 	@echo "... ResultSet.s"
+	@echo "... SourcePortAnalyzer.o"
+	@echo "... SourcePortAnalyzer.i"
+	@echo "... SourcePortAnalyzer.s"
 	@echo "... Testing/AnalyzerSpecializationsTester.o"
 	@echo "... Testing/AnalyzerSpecializationsTester.i"
 	@echo "... Testing/AnalyzerSpecializationsTester.s"
@@ -485,6 +614,9 @@ help:
 	@echo "... Testing/testMain.o"
 	@echo "... Testing/testMain.i"
 	@echo "... Testing/testMain.s"
+	@echo "... UserInterface.o"
+	@echo "... UserInterface.i"
+	@echo "... UserInterface.s"
 	@echo "... Utils.o"
 	@echo "... Utils.i"
 	@echo "... Utils.s"

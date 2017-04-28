@@ -13,18 +13,16 @@
 class DenialOfServiceAnalyzer : public Analyzer{
 public:
     DenialOfServiceAnalyzer(Configuration* config)
-            :Analyzer(config){
+            :Analyzer(config,this){
         dataHolder = new Dictionary<std::string,Dictionary<long,int>*>();
+        m_name = "Denial Of Service Analyzer";
     }
 
-    void run(std::ifstream& fin);
-    void createResultSet();
-    void print(std::ostream& stream);
+    void runMini(std::string* outData);
+    void createResultSet(int likelyThreshold, int possibleThreshold);
     void verifyConfig();
 private:
-
     Dictionary<std::string,Dictionary<long,int>*>* dataHolder;
-    ResultSet* results;
 };
 
 

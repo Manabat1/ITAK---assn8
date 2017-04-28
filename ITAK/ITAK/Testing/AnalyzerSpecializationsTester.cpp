@@ -6,6 +6,7 @@
 #include "../Analyzer.hpp"
 #include "../DenialOfServiceAnalyzer.hpp"
 #include "../PortScanAnalyzer.hpp"
+#include "../SourcePortAnalyzer.hpp"
 
 void AnalyzerSpecializationsTester::testCreation() {
     Configuration* configuration = new Configuration();
@@ -13,9 +14,11 @@ void AnalyzerSpecializationsTester::testCreation() {
     //Testing if proper specialization by assigning to pointer of generalization
     Analyzer* denial = new DenialOfServiceAnalyzer(configuration);
     Analyzer* port = new PortScanAnalyzer(configuration);
+    Analyzer* source = new SourcePortAnalyzer(configuration);
 
     PortScanAnalyzer portScanAnalyzer(configuration);
     DenialOfServiceAnalyzer denialOfServiceAnalyzer(configuration);
+    SourcePortAnalyzer sourcePortAnalyzer(configuration);
 
     std::ifstream theStream;  //  = new std::fstream("../SampleData.csv");
     theStream.open("../SampleData.csv");
@@ -32,12 +35,21 @@ void AnalyzerSpecializationsTester::testCreation() {
 
 
     try {
-        portScanAnalyzer.run(theStream);
+        sourcePortAnalyzer.run(theStream);
     } catch(std::string string){
         std::cout << "INVALID CONFIG " << string << std::endl;
     }
     theStream.close();
 
+    theStream.open("../SampleData.csv");
+
+
+    try {
+        portScanAnalyzer.run(theStream);
+    } catch(std::string string){
+        std::cout << "INVALID CONFIG " << string << std::endl;
+    }
+    theStream.close();
 
 
 }
@@ -88,7 +100,25 @@ void AnalyzerSpecializationsTester::testResults() {
 
     denialOfServiceAnalyzer.print(std::cout);
 
-    std::cout << "The End" << std::endl;
+
+    //Source Port Scanner
+    Configuration* config3 = new Configuration();
+    config3->add(config3->possible_attackers, "10");
+    config3->add(config3->likely_attackers, "15");
+    config3->add(config3->port_count, "5");
+
+    SourcePortAnalyzer sourcePortAnalyzer(config3);
+    fin.open("SampleData.csv");
+
+    try {
+        sourcePortAnalyzer.run(fin);
+    } catch (std::string e){
+        std::cout << e << std::endl;
+    }
+
+    fin.close();
+
+    sourcePortAnalyzer.print(std::cout);
 
 
     std::cout << "Analyzer Specializations Test Complete" << std::endl;

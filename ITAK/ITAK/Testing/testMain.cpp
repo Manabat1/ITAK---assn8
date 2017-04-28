@@ -24,7 +24,6 @@ int main(void){
 
     AnalyzerTester analyzerTester;
     analyzerTester.testConstructor();
-    analyzerTester.testDefaultRun();
 
     AnalyzerSpecializationsTester analyzerSpecializationsTester;
     analyzerSpecializationsTester.testCreation();

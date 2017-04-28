@@ -15,6 +15,13 @@ CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o: ../KeyValue.hpp
 CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o: ../ResultSet.hpp
 CMakeFiles/TEST.dir/DenialOfServiceAnalyzer.cpp.o: ../Utils.hpp
 
+CMakeFiles/TEST.dir/Menu.cpp.o: ../Menu.cpp
+CMakeFiles/TEST.dir/Menu.cpp.o: ../Menu.h
+CMakeFiles/TEST.dir/Menu.cpp.o: ../MenuOption.h
+
+CMakeFiles/TEST.dir/MenuOption.cpp.o: ../MenuOption.cpp
+CMakeFiles/TEST.dir/MenuOption.cpp.o: ../MenuOption.h
+
 CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.o: ../Analyzer.hpp
 CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.o: ../Configuration.hpp
 CMakeFiles/TEST.dir/PortScanAnalyzer.cpp.o: ../Dictionary.hpp
@@ -29,6 +36,15 @@ CMakeFiles/TEST.dir/ResultSet.cpp.o: ../KeyValue.hpp
 CMakeFiles/TEST.dir/ResultSet.cpp.o: ../ResultSet.cpp
 CMakeFiles/TEST.dir/ResultSet.cpp.o: ../ResultSet.hpp
 
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../Analyzer.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../Configuration.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../Dictionary.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../KeyValue.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../ResultSet.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.cpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../SourcePortAnalyzer.hpp
+CMakeFiles/TEST.dir/SourcePortAnalyzer.cpp.o: ../Utils.hpp
+
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Analyzer.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Configuration.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../DenialOfServiceAnalyzer.hpp
@@ -36,6 +52,7 @@ CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Dictionary.h
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../KeyValue.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../PortScanAnalyzer.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../ResultSet.hpp
+CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../SourcePortAnalyzer.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Testing/AnalyzerSpecializationsTester.cpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Testing/AnalyzerSpecializationsTester.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerSpecializationsTester.cpp.o: ../Utils.hpp
@@ -44,6 +61,8 @@ CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Analyzer.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Configuration.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Dictionary.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../KeyValue.hpp
+CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../ResultSet.hpp
+CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../SourcePortAnalyzer.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Testing/AnalyzerTester.cpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Testing/AnalyzerTester.hpp
 CMakeFiles/TEST.dir/Testing/AnalyzerTester.cpp.o: ../Utils.hpp
@@ -66,6 +85,20 @@ CMakeFiles/TEST.dir/Testing/testMain.cpp.o: ../Testing/ConfigurationTester.hpp
 CMakeFiles/TEST.dir/Testing/testMain.cpp.o: ../Testing/ResultSetTester.hpp
 CMakeFiles/TEST.dir/Testing/testMain.cpp.o: ../Testing/testMain.cpp
 CMakeFiles/TEST.dir/Testing/testMain.cpp.o: ../Utils.hpp
+
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../Analyzer.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../Configuration.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../DenialOfServiceAnalyzer.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../Dictionary.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../KeyValue.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../Menu.h
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../MenuOption.h
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../PortScanAnalyzer.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../ResultSet.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../SourcePortAnalyzer.hpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../UserInterface.cpp
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../UserInterface.h
+CMakeFiles/TEST.dir/UserInterface.cpp.o: ../Utils.hpp
 
 CMakeFiles/TEST.dir/Utils.cpp.o: ../Utils.cpp
 CMakeFiles/TEST.dir/Utils.cpp.o: ../Utils.hpp

@@ -13,15 +13,14 @@
 class PortScanAnalyzer : public Analyzer{
 public:
     PortScanAnalyzer(Configuration* config)
-        :Analyzer(config){
+        :Analyzer(config,this){
         dataHolder = new Dictionary<std::string,std::vector<int>*>();
+        m_name = "Port Scan Analyzer";
     }
-    void run(std::ifstream& fin);
-    void print(std::ostream& stream);
-    void verifyConfig();
+    void runMini(std::string* outData);
+    void verifyConfig(){}
+    void createResultSet(int likelyThreshold, int possibleThreshold);
 private:
-    void createResultSet();
-    ResultSet* results;
     Dictionary<std::string,std::vector<int>*>* dataHolder;
 };
 
